@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/settings" >
+        <EditTextPreference
+            android:name="format"
+            android:defaultValue="@string/format_default"
+            android:key="format"
+            android:title="@string/setting_format"
+            android:summary="@string/setting_format_details" />
+        <EditTextPreference
+            android:name="email_to"
+            android:defaultValue=""
+            android:key="email_to"
+            android:title="@string/setting_email_to"
+            android:summary="@string/setting_email_to_details" />
+        <EditTextPreference
+            android:name="email_subject"
+            android:defaultValue="InventoryScanner results"
+            android:key="email_subject"
+            android:title="@string/setting_email_subject"
+            android:summary="@string/setting_email_subject_details" />
+    </PreferenceCategory>
+</PreferenceScreen>
