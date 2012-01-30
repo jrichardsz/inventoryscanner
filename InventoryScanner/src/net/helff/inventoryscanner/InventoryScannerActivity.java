@@ -63,7 +63,7 @@ public class InventoryScannerActivity extends Activity {
         scanButton.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
                 IntentIntegrator integrator = new IntentIntegrator(InventoryScannerActivity.this);
-                integrator.initiateScan(IntentIntegrator.PRODUCT_CODE_TYPES);
+                integrator.initiateScan(IntentIntegrator.ONE_D_CODE_TYPES);
             }
 
         });
